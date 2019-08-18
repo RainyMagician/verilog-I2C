@@ -1,0 +1,40 @@
+ 
+****************************************
+check_design summary:
+Version:     I-2013.12
+Date:        Fri Dec 15 14:49:45 2017
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                              20
+    Cells do not drive (LINT-1)                                    16
+    Connected to power or ground (LINT-32)                          2
+    Nets connected to multiple pins on same cell (LINT-33)          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'controller', cell 'C2355' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2365' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2369' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2382' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2397' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2438' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2448' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2451' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2460' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2473' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2476' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2482' does not drive any nets. (LINT-1)
+Warning: In design 'controller', cell 'C2487' does not drive any nets. (LINT-1)
+Warning: In design 'partoser', cell 'C244' does not drive any nets. (LINT-1)
+Warning: In design 'sertopar', cell 'C177' does not drive any nets. (LINT-1)
+Warning: In design 'sertopar_slave', cell 'C211' does not drive any nets. (LINT-1)
+Warning: In design 'controller', a pin on submodule 'BIT_CHECK1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'en' is connected to logic 1. 
+Warning: In design 'controller', a pin on submodule 'BIT_CHECK2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'en' is connected to logic 1. 
+Warning: In design 'controller', the same net is connected to more than one pin on submodule 'SEND'. (LINT-33)
+   Net '_2_net_' is connected to pins 'load', 'send''.
+Warning: In design 'controller', the same net is connected to more than one pin on submodule 'SLAVE_SEND'. (LINT-33)
+   Net 'load' is connected to pins 'load', 'send''.
+1

@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : controller
+Version: I-2013.12
+Date   : Fri Dec 15 14:49:47 2017
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: rd_addr[0] (input port clocked by clk)
+  Endpoint: rd_data[0] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  controller         16000                 saed90nm_typ
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     6.00       6.00 r
+  rd_addr[0] (in)                          0.00       6.00 r
+  U375/Q (MUX41X1)                         0.09       6.09 f
+  rd_data[0] (out)                         0.00       6.09 f
+  data arrival time                                   6.09
+
+  clock clk (rise edge)                   20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -3.00      17.00
+  output external delay                   -6.00      11.00
+  data required time                                 11.00
+  -----------------------------------------------------------
+  data required time                                 11.00
+  data arrival time                                  -6.09
+  -----------------------------------------------------------
+  slack (MET)                                         4.91
+
+
+1

@@ -1,0 +1,19 @@
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	comm_start_reg/CLK comm_start_reg/Q U254/IN2 U254/Q U391/S U391/Q 
+Warning: Disabling timing arc between pins 'S' and 'Q' on cell 'U391'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'S' and 'Q' on cell 'U391'
+         to break a timing loop. (OPT-314)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : controller
+Version: I-2013.12
+Date   : Fri Dec 15 14:49:47 2017
+****************************************
+
+This design has no violated constraints.
+
+1

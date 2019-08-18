@@ -1,0 +1,59 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Dec 15 01:47:41 2017
+[*]
+[dumpfile] "/media/sf_CoE111/MP/sim/test_rtl.vpd"
+[dumpfile_mtime] "Fri Dec 15 01:42:21 2017"
+[dumpfile_size] 28095
+[savefile] "/media/sf_CoE111/MP/sim/config.gtkw"
+[timestart] 340400
+[size] 1920 1016
+[pos] -1 -1
+*-17.093147 1074400 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_i2c.
+[sst_width] 229
+[signals_width] 153
+[sst_expanded] 1
+[sst_vpaned_height] 284
+@28
+tb_i2c.SCL
+tb_i2c.SCL_out1
+[color] 2
+tb_i2c.SCL_out2
+tb_i2c.SCL_tris1
+[color] 2
+tb_i2c.SCL_tris2
+tb_i2c.SDA
+tb_i2c.SDA_out1
+[color] 2
+tb_i2c.SDA_out2
+tb_i2c.SDA_tris1
+[color] 2
+tb_i2c.SDA_tris2
+tb_i2c.busy1
+tb_i2c.busy2
+tb_i2c.clk
+tb_i2c.nrst
+tb_i2c.rd_addr1[1:0]
+[color] 2
+tb_i2c.rd_addr2[1:0]
+@22
+tb_i2c.rd_data1[7:0]
+[color] 2
+tb_i2c.rd_data2[7:0]
+@28
+tb_i2c.tx_cnt1[1:0]
+[color] 2
+tb_i2c.tx_cnt2[1:0]
+@22
+tb_i2c.tx_data1[7:0]
+@28
+tb_i2c.tx_en1
+tb_i2c.tx_fail11
+tb_i2c.tx_rd1
+tb_i2c.UUT1.state[2:0]
+[color] 2
+tb_i2c.UUT2.state[2:0]
+tb_i2c.UUT2.comm_start
+[pattern_trace] 1
+[pattern_trace] 0
